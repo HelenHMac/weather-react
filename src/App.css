@@ -1,38 +1,123 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-app {
+  max-width: 40%;
+  margin: 50px auto 0px;
+  border: 7px solid rgba(255, 254, 254, 0.6);
+  border-radius: 10px;
+  border-style: double;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  color: rgb(36, 111, 152);
+  margin: 20px 10px 30px;
+  text-align: center;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container1 {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5px 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.kursiv {
+  font-style: italic;
+  font-size: smaller;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inline {
+  display: inline-table;
+}
+
+.city {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(36, 111, 152);
+}
+
+.listnone {
+  list-style: none;
+  margin: auto;
+  padding: 0px;
+}
+
+.temperaturemain {
+  font-size: 80px;
+  margin-left: 10px;
+  color: rgb(36, 111, 152);
+}
+
+.degree {
+  font-size: 40px;
+  vertical-align: super;
+  color: rgb(36, 111, 152);
+}
+
+.units {
+  text-decoration: none;
+}
+
+.active {
+  color: rgb(36, 111, 152);
+  cursor: default;
+}
+
+.image1 {
+  max-width: 90px;
+}
+
+.button {
+  background-color: rgb(145, 217, 243);
+  border: rgb(36, 144, 212);
+  border-radius: 5px;
+  padding: 6px 40px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+.morespace {
+  column-width: 200px;
+  padding-left: 0px;
+  padding-right: 100px;
+
+}
+
+.footer-app {
+  max-width: 300px;
+  margin: 200px auto;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.weekday-forecast {
+  text-align: center;
+  margin: auto;
+}
+
+.weekdays {
+  min-width: 90px;
+}
+
+.alldays {
+  background-color: rgba(145, 217, 243, 0.336);
+  border: 7px solid rgba(255, 254, 254, 0.6);
+  border-radius: 10px;
+  border-style: double;
+  padding: 1% 5%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.forecastmg {
+  width: 80%;
+}
+
+.mintemp {
+  color: rgb(106, 106, 111);
 }
